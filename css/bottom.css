@@ -1,0 +1,189 @@
+/*底部*/
+.contain-bottom{
+    font-size: 15px;    
+    background-color: #333333;
+    color: #999999;
+    position: relative;
+    padding-bottom: 30px;
+    min-width: 1000px;
+}
+
+.contain-bottom ul{
+    padding: 0;
+    margin: 0; 
+    margin-left: -29px;
+}
+
+.contain-bottom h2{
+    font-size: 15px;  
+    padding: 80px 0 46px;
+    margin: 0;  
+}
+.contain-bottom .container{
+    max-width: 1200px;
+    min-width: 900px;
+    width: auto;
+    position: relative;
+    padding: 0;
+}
+
+.contain-bottom .container a{
+    color: #999999;
+}
+
+.bottom-download{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.bottom-download-item{
+    float: left;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.icon-Pc{
+    display: block;
+    margin: 0 29px 12px;
+    width: 37px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -2px 0;
+}
+
+.icon-Mac{
+    display: block;
+    margin: 0 29px 12px;
+    width: 46px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -92px 0;
+}
+
+.icon-Android{
+    display: block;
+    margin: 0 29px 12px;
+    width: 37px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -190px 0;
+}
+
+.icon-iPhone{
+    display: block;
+    margin: 0 29px 12px;
+    width: 34px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -279px 0;
+}
+
+.contain-bottom .container a:hover{
+    text-decoration: none;
+    color: #31c27c;
+}
+
+.bottom-product{
+    position: absolute;
+    top: 0;
+    left: 476px;
+    width: 304px;
+}
+
+.bottom-product ul{
+    margin-left: -25px;
+}
+
+.icon-Qmkg{
+    display: block;
+    margin: 0 29px 12px;
+    width: 41px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -370px 0;
+}
+
+.icon-Super{
+    display: block;
+    margin: 0 29px 12px;
+    width: 37px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -463px 0;
+}
+
+.icon-QPlay{
+    display: block;
+    margin: 0 29px 12px;
+    width: 40px;
+    height: 48px;
+    background: url(../img/MyMusic/MyMusic-bottom/footer.png);
+    background-position: -563px 0;
+}
+
+.bottom-product-item{
+    float: left;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    text-indent: 22px;
+    margin-bottom: 18px;
+}
+
+#qq-show{
+    margin-left: 10px;
+}
+
+.bottom-tit{
+    float: right;
+    width: 300px;
+    padding-bottom: 57px;
+}
+
+.bottom-tit ul{
+    margin: 0;
+}
+
+.bottom-tit-item{
+    float: left;
+    list-style: none;
+    position: relative;
+    min-width: 100px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 1240px) {
+    .bottom-product{
+        left: 45%;
+    }
+    .bottom-tit{
+        width: 200px;
+    }
+}
+
+.bottom-platform{
+    margin: 230px 0 90px 10px;
+    font-size: 14px;
+}
+
+.bottom-platform  h3{
+    padding: 80px 0 46px;
+}
+
+.bottom-platform ul{
+
+}
+
+.bottom-platform ul li{
+    list-style: none;
+    float: left;
+    min-width: 100px;
+    margin: 0 5px 12px 0;
+    text-indent: 28px;
+}
+
+.bottom-copyright{
+    text-align: center;
+}

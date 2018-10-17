@@ -1,0 +1,662 @@
+.bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+/*背景一*/
+.bg1{
+    height: 320px;
+    background: #000 url(../img/Musica/bg/bg1.jpg) no-repeat center 0;
+}
+
+/*背景二*/
+.bg2{
+    height: 358px;
+    background: #000 url(../img/Musica/bg/bg2.jpg) no-repeat center 0;
+}
+/*背景三*/
+.bg3{
+    height: 680px;
+    margin-top: 680px;
+    background-color: #f5f5f5;
+}
+/*背景四*/
+.bg4{
+    height: 680px;
+    margin-top: 680px;
+    background-color: #f5f5f5;
+}
+
+/*第一部分*/
+.contain{
+    min-width: 100px;
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contain-1{
+    height: 680px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Musica-login{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+}
+
+.Musica-login a{
+    display: block;
+    color: #fff;
+}
+
+.Musica-login a:hover, .Musica-login a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Musica-login a:hover, .Musica-login a:active{
+    color: #31C27C;
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 174px;
+}
+
+.header-title{
+    display: block;
+    margin: 10px auto 26px;
+    opacity: 0;
+}
+
+.header-name{
+    display: block;
+    margin: 0 auto 26px;
+    opacity: 0;
+}
+
+.header-btn{
+    display: block;
+    width: 272px;
+    height: 60px;
+    text-align: center;
+    color: #000;
+    background-color: #F3CE1B;
+    font-size: 24px;
+    line-height: 60px;
+    margin: 30px auto;
+    border-radius: 60px;
+    color: black;
+    opacity: 0;
+    animation: shadow 4s infinite;
+}
+
+@keyframes shadow{
+	0% {box-shadow: 0 0 0 #F3CE1B;}
+/*	25% {box-shadow: 0 0 80px #F3CE1B;}*/
+	50% {box-shadow: 0 0 80px #F3CE1B;}
+/*	70% {box-shadow: 0 0 20px #F3CE1B;}*/
+	100% {box-shadow: 0 0 0px #F3CE1B;}
+}
+
+
+.header-btn:link, .header-btn:visited{
+/*    color: white;*/
+    text-decoration: none;
+}
+
+.header-btn:hover, .header-btn:active{
+    color: white;
+    text-decoration: none;
+}
+
+/*第二部分*/
+
+.contain2{
+    min-width: 100px;
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contain-2{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.part-creation{
+    position: relative;
+    height: 680px;
+    overflow: hidden;
+}
+
+.creation-img{
+    position: absolute;
+    left: 10px;
+    top: 55px;
+}
+
+.creation-circle{
+    position: absolute;
+    left: 20px;
+    top: 56px;
+    width: 444px;
+    opacity: 0;
+}
+
+.creation-mobile{
+    position: absolute;
+    left: 64px;
+    top: 0;
+}
+
+.creation-cont-1{
+    position: absolute;
+    left: 95px;
+    top: 80px;
+}
+
+.creation-cont-2{
+    position: absolute;
+    left: 216px;
+    top: 80px;
+    box-shadow: 0 0 15px 1px #f0f0f0;
+    opacity: 0;
+}
+
+.creation-intro{
+    position: absolute;
+    right: 0;
+    top: 156px;
+    width: 445px;
+    text-align: left;
+}
+
+.creation-intro > h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.creation-intro > p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.creation-intro .intro-icon{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: -26px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.creation-intro .intro-icon li{
+    float: left;
+    list-style: none;
+    width: 110px;
+    height: 84px;
+    overflow: hidden;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.creation-intro .intro-icon li i{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-trends{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 0;
+}
+
+.icon-column{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -60px;
+}
+
+.icon-radio{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -120px;
+}
+
+.icon-live{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -180px;
+}
+
+/*第三部分*/
+
+.mod-ornament{
+    height: 680px;
+    position: relative;
+    overflow: hidden;   
+   
+}
+
+.ornament-img{
+    position: absolute;
+    right: 0;
+    top: 50px; 
+}
+
+.ornament-phone{
+    position: absolute;
+    right: 196px;
+    top: 0;
+    opacity: 0;
+}
+
+.ornament-cont3{
+    position: absolute;
+    right: 233px;
+    top: 80px;
+    width: 239px;
+    opacity: 0;
+}
+
+.ornament-img i{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: url(../img/Musica/ornament/sprite_star.png);
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all 1s;
+    transform: scale(.8) rotate(-15deg);
+}
+
+.ornament-icon1{
+    top: 315px;
+    right: 446px;
+    background-position: 0 -300px;
+}
+.ornament-icon2{
+    top: 241px;
+    right: 160px;
+    background-position: 0 -150px;
+}
+.ornament-icon3{
+    top: 71px;
+    right: -10px;
+    background-position: 0 -450px;
+}
+.ornament-icon4{
+    top: 75px;
+    right: 404px;
+    background-position: 0 -600px;
+}
+.ornament-icon5{
+    top: 327px;
+    right: -20px;
+}
+
+
+.ornament-intro{
+    position: absolute;
+    left: 80px;
+    top: 165px;
+    width: 460px;
+    text-align: left;
+}
+
+.ornament-intro > h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.ornament-intro > p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.ornament-intro .intro-icon{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: -26px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.ornament-intro .intro-icon li{
+    float: left;
+    list-style: none;
+    width: 110px;
+    height: 84px;
+    overflow: hidden;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+ .ornament-intro .intro-icon li i{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-exclusive{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -240px;
+}
+
+.icon-capacity{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -300px;
+}
+
+/*第四部分*/
+
+.part-data{
+    height: 680px;
+    position: relative;
+    overflow: hidden;   
+}
+.data-img{
+    position: absolute;
+    left: 0;
+    top: 115px;
+}
+
+.data-circle{
+    position: absolute;
+    left: 20px;
+    opacity: 0;
+}
+
+.data-mac{
+    position: absolute;
+    top: 45px;
+    opacity: 0;
+}
+
+
+.data-intro{
+    position: absolute;
+    right: 0;
+    top: 156px;
+    width: 445px;
+    text-align: left;
+}
+
+.data-intro > h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.data-intro > p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.data-intro .intro-icon{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: -26px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.data-intro .intro-icon li{
+    float: left;
+    list-style: none;
+    width: 110px;
+    height: 84px;
+    overflow: hidden;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.data-intro .intro-icon li i{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-fens{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -360px;
+}
+
+.icon-comment{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -420px;
+}
+
+.icon-read{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -480px;
+}
+
+
+/*第五部分*/
+
+
+.part-mode{
+    height: 680px;
+    position: relative;
+    overflow: hidden;   
+   
+}
+
+.mode-img{
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    width: 448px;
+    height: 617px; 
+}
+
+.mode-circle{
+    position: absolute;
+    right: -10px;
+    top: 67px;
+    width: 448px;
+    opacity: 0;
+}
+
+.mode-phone{
+    position: absolute;
+    right: 90px;
+    top: 0;
+    opacity: 0;
+}
+
+.mode-cont4{
+    position: absolute;
+    right: 127px;
+    top: 80px;
+    width: 239px;
+    opacity: 0;
+}
+
+.mode-intro{
+    position: absolute;
+    left: 80px;
+    top: 165px;
+    width: 460px;
+    text-align: left;
+}
+
+.mode-intro > h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.mode-intro > p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.mode-intro .intro-icon{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: -26px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.mode-intro .intro-icon li{
+    float: left;
+    list-style: none;
+    width: 110px;
+    height: 84px;
+    overflow: hidden;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+ .mode-intro .intro-icon li i{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-exclusive{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -540px;
+}
+
+.icon-capacity{
+    background: url(../img/Musica/sprite_index_icon.png) no-repeat 0 -600px;
+}
+
+
+/*第六部分*/
+.part-star{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.part-star h2{
+    margin: 68px 0 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.part-star h2:before{
+    position: relative;
+    top: -1px;
+    content: '';
+    height: 1px;
+    display: inline-block;
+    width: 185px;
+    margin: 0 24px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.part-star h2:after{
+    position: relative;
+    top: -1px;
+    content: '';
+    height: 1px;
+    display: inline-block;
+    width: 185px;
+    margin: 0 24px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+    vertical-align: middle;
+}    
+
+.part-star ul{
+    padding: 0;
+    margin: 0 -30px;
+    overflow: hidden;
+}
+
+.part-star ul li{
+    float: left;
+    width: 520px;
+    margin: 0 30px 50px;
+    list-style: none;
+}
+
+.star-img-contain{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    width: 124px;
+    height: 124px;
+    border-radius: 999px;
+}
+
+.star-img{
+    width: 100%;
+    border-radius: 999px;
+}
+
+.star-icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.star-content{
+    text-align: left;
+    height: 124px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.star-list a:link, .star-list a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+.star-list a:hover, .star-list a:active{
+    color: #F3CE1B;
+    text-decoration: none;
+}
+
+.star-btn{
+    display: block;
+    width: 272px;
+    height: 54px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    font-size: 24px;
+    line-height: 54px;
+    margin: 30px auto;
+    border-radius: 60px;
+    border: 2px solid #000;
+}
+
+.star-btn:link, .star-btn:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+.star-btn:hover, .star-btn:active{
+    color: #F3CE1B;
+    text-decoration: none;
+}

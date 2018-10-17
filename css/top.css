@@ -1,0 +1,207 @@
+/*顶部*/
+.contain{padding: 0px;}
+.contain-top1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    background: url(../img/MyMusic/MyMusic-nav/20181014001151.png);
+    opacity: 0.9;
+    min-width: 1000px;
+}
+
+.contain-top{
+    min-width: 1000px;
+}
+
+.contain-top .container{
+    max-width: 1200px;
+    min-width: 900px;
+    width: auto;
+    position: relative;
+    padding: 0;
+    padding-top: 90px;
+}
+
+@media (max-width: 1300px) {
+    .contain-top .container{
+        margin: 0 50px;
+    }
+}
+
+.contain-top .MyMusic-logo{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.MyMusic-logo img{
+    height: 90px;
+}
+
+.MyMusic-nav{
+    position: absolute;
+    left: 320px;
+    top: 0;
+}
+
+.MyMusic-nav ul{
+    border: none;
+    padding: 0;
+}
+
+.MyMusic-nav ul li{
+    margin-right: -5px;
+    float: left;
+    list-style: none;
+}
+
+.MyMusic-nav ul li a{
+    display: block;
+    height: 90px;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.MyMusic-nav ul li a:link, .MyMusic-nav ul li a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.MyMusic-nav ul li a:hover, .MyMusic-nav ul li a:active{
+    text-decoration: none;
+}
+
+.MyMusic-nav ul li #hot{
+    color: #f3ce1b;
+}
+
+.MyMusic-search{
+    position: absolute;
+    right: 284px;
+    top: 26px;
+    width: 220px;
+    overflow: hidden;
+    background: #EDEDED;
+    border-radius: 4px;
+}
+
+.MyMusic-search .MyMusic-input{
+    border: solid 1px #CCCCCC;
+    border-radius: 2px;
+    padding: 0 33px 0 3px;
+    position: relative;
+}
+
+.MyMusic-search .MyMusic-input input{
+    width: 174px;
+    height: 36px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    position: relative;
+    background: #EDEDED;
+    left: 5px;
+}
+
+.MyMusic-search .MyMusic-input .search-icon{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background:#EDEDED url(../img/MyMusic/MyMusic-nav/icon_sprite.png) 0 -40px;
+}
+
+.MyMusic-search .MyMusic-input .search-icon:hover{
+    background: url(../img/MyMusic/MyMusic-nav/icon_sprite.png)0 -60px;
+    cursor: pointer;
+}
+
+.MyMusic-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 90px;
+    line-height: 90px;
+}
+
+.Mymusic-login{
+    position: relative;
+    font-size: 16px;
+    float: left;
+    width: 38px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.Mymusic-login:link, .Mymusic-login:visited{
+    color: white;
+    text-decoration:none;
+}
+
+.Mymusic-login:hover, .Mymusic-login:active{
+    text-decoration: none;
+    color:#f3ce1b;
+}
+
+.green-diamond{
+    display: inline-block;
+    background-color: #f3ce1b;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 9px;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.green-diamond:link, .green-diamond:visited{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.green-diamond:hover, .green-diamond:active{
+    background-color: #FFD700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.pay{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 9px;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    color: white;
+}
+.pay:link,.pay:visited{
+    color: white;
+    text-decoration: none;
+}
+.pay:hover{
+    background-color: #ADADAD;
+    text-decoration: none;
+}
+
+@media (max-width: 1220px) {
+    .MyMusic-search{
+        width: 38px;
+    }
+    .MyMusic-search .MyMusic-input input{
+        width: 0;
+    }
+}
+
+@media (max-width: 1300px) {
+    .MyMusic-search{
+        right: 189px;
+    }
+    .pay{
+        display: none;
+    }
+}
